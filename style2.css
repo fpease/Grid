@@ -1,0 +1,44 @@
+.wrapper{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap:1em;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    background-color: gray;
+    padding:25px;
+    text-align: center;
+}
+
+.sidebar{
+    background-color: gray;
+    padding:80px;
+}
+
+.content{
+    background-color: gray;
+    padding:80px;
+    text-align: center;
+}
+
+.sub{
+    display:grid;
+    grid-template-columns: 30% 69%;
+    grid-gap:1em;
+}
+
+.footer{
+    background-color: gray;
+    padding:25px;
+    text-align: center;
+}
+
+.box{
+    background-color: gray;
+    color:white;
+    border-radius: 5px;
+    font-size: 100%;
+}
+
